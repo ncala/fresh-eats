@@ -1,0 +1,24 @@
+body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    max-width: 28px;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#banner-img {
+    background-image: url(../media/optional-images/resized/brooke-lark-229136-unsplash.png);
+    background-size: cover;
+    height: 650px;
+    width: 1260px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* no-repeat center center fixed */
