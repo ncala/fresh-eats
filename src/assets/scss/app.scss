@@ -1,24 +1,91 @@
 body {
-    background: #fff;
+    background: url("../media/optional-images/creampaper.png") repeat;
     font-family: 'Montserrat', sans-serif;
+    color: #9c472e;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    color: #000;
+}
+
+a {
+    display: inline-flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #9c472e;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #808080;
 }
 
 #logo {
-    max-width: 28px;
-    width: 100%;
     min-width: 100%;
+    max-width: 28px;
     height: auto;
     text-align: center;
 }
 
-#banner-img {
-    background-image: url(../media/optional-images/resized/brooke-lark-229136-unsplash.png);
+ul li {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#landing-banner {
+    background: url(../media/optional-images/resized/brooke-lark-229136-unsplash.png) no-repeat center center;
     background-size: cover;
-    height: 650px;
-    width: 1260px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    #landing-banner {
+        background: url(../media/optional-images/resized/brooke-lark-229136-unsplash.png) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100vw;
+        height: 58vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    #landing-banner {
+        background: url(../media/optional-images/resized/brooke-lark-229136-unsplash.png) no-repeat bottom center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100vw;
+        height: 120vh;
+    }
 }
 
 /* no-repeat center center fixed */
