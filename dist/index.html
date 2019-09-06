@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fresh Eats</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet"></head>
+<body>
+    <header>
+        <div class="content-container">
+            <div id="header-top">
+                <div id="logo">
+                    <!-- include logo with transparent png background here-->
+                    <img src="media/fresh-eats-logo-150.png" width="150px" alt="fresh-eats-logo">
+                </div>
+            </div>
+                <nav>
+                    <ul>
+                        <!--test nav items in all caps. just changing text for better github commit-->
+                        <a class="menu-cta" href="#menus"><li>View Our Menu</li></a>
+                        <a class="plan-cta" href="#choose"><li>Choose A Plan</li></a>
+                        <a class="how-cta" href="#how"><li>How It Works</li></a>
+                    </ul>
+                    <a class="button-ghost" href="#SignUp">LOGIN</a>
+                    <a class="button" href="#SignUp">SIGN UP</a>
+                </nav>
+        </div>
+    </header>
+    <main>
+        <section id="landing-banner">
+            <!-- include CSS background image here, need html for it at all?-->
+                <a class="button">Stay Fresh</a>
+                <a class="button-jl">Leave Blank, Jump Link to top of menus section</a>
+        </section>
+        <section id="how">
+            <h1>How it Worx</h1>
+            <h2>Starts Fresh, Stays Fresh</h2>
+            <div class="left">
+                <img>
+                <!--illo of farms or certified organic logo-->
+            </div>
+            <div class="right">
+                <div class="half-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mauris ligula, vel venenatis ex mollis a.</p>
+                </div>
+            </div>
+            <div class="left-text">
+                <div class="half-container">
+                    <p>Curabitur eget nulla eleifend, rutrum lacus sed, viverra nibh.</p>
+                </div>
+            </div>
+            <div class="right-img">
+                <img>
+                <!--illo of friendly delivery truck or whatever-->
+            </div>
+            <div class="left">
+                <img>
+                <!--illo of plated food, happy fam or something-->
+            </div>
+            <div class="right">
+                <div class="half-container">
+                    <p>Nulla ac enim sed ante congue consectetur.</p>
+                </div>
+            </div>
+        </section>
+        <section id="choose">
+            <h1>Choose A Plan</h1>
+            <div class="grid-container">
+            <!--grid of 7 images with vertical text for each meal plan arranged like a ROYGBIV pattern-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec orci in nulla malesuada feugiat vel in arcu. Nunc mollis sapien quis auctor posuere. Fusce imperdiet vestibulum porttitor. Etiam nec libero at arcu sollicitudin suscipit. In felis velit, efficitur sit amet risus id, imperdiet eleifend risus. Nulla vel dolor nisl. Cras eu nibh enim. Duis hendrerit eleifend odio a fringilla. Maecenas porta est in ligula tincidunt, vitae tempus turpis rutrum. Proin tincidunt volutpat orci tincidunt vulputate. Nullam tellus mi, sollicitudin convallis tortor eget, accumsan efficitur nisl. Phasellus bibendum porta quam id efficitur. Integer blandit nibh nec risus accumsan, quis placerat turpis sagittis.</p>
+            </div>
+            <!--probably will need to use FlexWrap for text here or something-->
+        </section>
+        <section id="menus">
+            <div class="menu-container">
+                <!--look up grid and flexbox tools for this section-->
+                <img src="media/menu-1.jpg" alt="russian-veg-stew" width="300px"/>
+                <img src="media/menu-2.jpg" alt="salmon-dish" width="300px"/>
+                <img src="media/menu-3.jpg" alt="butternut-squash-soup" width="300px"/>
+                <img src="media/menu-4.jpg" alt="spinach-salad" width="300px"/>
+                <img src="media/menu-5.jpg" alt="avocado-toast" width="300px"/>
+                <img src="media/menu-6.jpg" alt="lentils-pizza" width="300px"/>
+                <img src="media/menu-7.jpg" alt="bowl-of-pho" width="300px"/>
+            </div>
+        </section>
+        <!-- <section id="menus">
+            <h1>View Our Menu</h1>
+            3 to 4 standing square images of meals with scrolling buttons on either side
+            <div class="swipe-menu">
+                <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0">
+                    <div class="row">
+                        <div class="tab-content">
+                            <div class="home-slick-carousel-menus slick-initialized slick-slider slick-dotted">
+                                <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">...</button>
+                                <div class="slick-list draggable">
+                                    <div class="slick-track" style="opacity: 1; width: 11877px; transform: translate3d((-1284px, 0px, 0px);">
+                                        <div class="slick-slide slick-cloned" data-slick-index="1" aria-hidden="true" style="width 320px;">
+                                            <div>
+                                                <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                    <div class="card">
+                                                        <div class="open-modal plus hidden-xs" href="#" data-id="1" data-toggle="modal" data-target="#modal-1">
+                                                            <img class="img-responsive" src="media/menu-1.jpg" alt="russian-veg-stew" width="300px">
+                                                            <div class="text">
+                                                                <h3>Russian Vegetarian Stew<h3>
+                                                                <small>Vegetarian Gluten-Free</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width 320px;">
+                                                <div>
+                                                    <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                        <div class="card">
+                                                            <div class="open-modal plus hidden-xs" href="#" data-id="2" data-toggle="modal" data-target="#modal-2">
+                                                                <img class="img-responsive" src="media/menu-2.jpg" alt="salmon-dish" width="300px">
+                                                                <div class="text">
+                                                                    <h3>We have the meats</h3>
+                                                                    <small>Keto Gluten-Free</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="false" style="width 320px;">
+                                                <div>
+                                                    <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                        <div class="card">
+                                                            <div class="open-modal plus hidden-xs" href="#" data-id="3" data-toggle="modal" data-target="#modal-3">
+                                                                <img class="img-responsive" src="media/menu-3.jpg" alt="butternut-squash-soup" width="300px">
+                                                                    <div class="text">
+                                                                        <h3>Greens</h3>
+                                                                        <small>Vegetarian</small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                      </div> 
+                                      <div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="false" style="width 320px;">
+                                            <div>
+                                                <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                    <div class="card">
+                                                        <div class="open-modal plus hidden-xs" href="#" data-id="4" data-toggle="modal" data-target="#modal-4">
+                                                            <img class="img-responsive" src="media/menu-4.jpg" alt="spinach-salad" width="300px">
+                                                            <div class="text">
+                                                                <h3>Lentils</h3>
+                                                                <small>Just Eat It</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="false" style="width 320px;">
+                                            <div>
+                                                <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                    <div class="card">
+                                                        <div class="open-modal plus hidden-xs" href="#" data-id="5" data-toggle="modal" data-target="#modal-4">
+                                                            <img class="img-responsive" src="media/menu-5.jpg" alt="avocado-toast" width="300px">
+                                                            <div class="text">
+                                                                <h3>Pizza</h3>
+                                                                <small>Why not</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      <div class="slick-slide slick-cloned" data-slick-index="6" aria-hidden="false" style="width 320px;">
+                                            <div>
+                                                <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                    <div class="card">
+                                                        <div class="open-modal plus hidden-xs" href="#" data-id="6" data-toggle="modal" data-target="#modal-4">
+                                                            <img class="img-responsive" src="media/menu-6.jpg" alt="lentils-pizza" width="300px">
+                                                            <div class="text">
+                                                                <h3>Fruits</h3>
+                                                                <small>Bat Diet</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="false" style="width 320px;">
+                                            <div>
+                                                <div class="col-sm-12 MENU OPT-1 OPT-2 OPT-3 OPT-4 OPT-5 OPT-6" data-plan="CLASSIC" style="width=100%; display: inline-block;">
+                                                    <div class="card">
+                                                        <div class="open-modal plus hidden-xs" href="#" data-id="7" data-toggle="modal" data-target="#modal-4">
+                                                            <img class="img-responsive" src="media/menu-7.jpg" alt="bowl-of-pho" width="300px">
+                                                            <div class="text">
+                                                                <h3>Legumes</h3>
+                                                                <small>Freegan Diet</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="SignUp">
+            <h1>Login or Sign Up</h1>
+            <div class="login-form">
+                <form>
+                    Username
+                    <input type="text" name="username"><br>
+                    Password
+                    <input type="password" name="psw">
+                </form>
+                <br>
+                <a class="signup-btn" href=#signup-page>Sign Up</a>
+            </div>
+            <!--generic login and sign up form-->
+        </section>
+    </main>
+    <footer id="footer">
+        <ul>
+            <li>e: contact@fresheats.com</li>
+            <li>p: 310-420-1433</li>
+        </ul>
+        <p>&copy; 2019 Fresh Eats</p>
+            <!--social buttons-->
+    </footer>
+<script type="text/javascript" src="app.js"></script></body>
+
+  
+        <!--<h1>Your Webpack installation is working</h1>
+        <img src="media/bear.jpg" alt="bear">
+        <img src="media/kiwi.svg" alt="kiwi">
+        <audio controls>
+            <source src="media/horse.ogg" type="audio/ogg">
+          Your browser does not support the audio element.
+          </audio>-->
+</html>
